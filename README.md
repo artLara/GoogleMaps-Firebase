@@ -8,3 +8,6 @@ Se inicia con 3 marcadores previos, pero cada vez que se da un click en la zona 
 El botón guardar escribirá un nuevo registro en la base de datos de firebase, como llave se utiliza la palabra Marcador concatenado con el número asignado y la fecha con hora, minutos y segundos para asegurar la no replicación de llaves. Como valor se utilizan la latitud y longitud. La siguiente imagen es un ejmplo de como se observa la consola de Firebase con unos registros previos hechos en pruebas. Además se cuenta con el botón de "Borrar" que elimina todos los registros previamente hechos.
 
 <img src="https://user-images.githubusercontent.com/63621038/209041685-ce27dcb1-5b50-45a5-b4ed-5860ff5b35e0.png" alt="drawing" width="400"/>
+
+
+**Nota:** Para ejecutar la aplicación es necesario crear una API KEY de Google Maps y ponerla dentro del archivo local.properties como MAPS_API_KEY= TU_API_KEY
